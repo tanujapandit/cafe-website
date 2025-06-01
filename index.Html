@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Light House Cafe</title>
+        <link rel="stylesheet" href="style.css">
+        </head>
+    <body>
+        <header>
+            <h1>Welcome to Light House Cafe</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="menu">Menu</a>
+                <a href="#order">Orders</a>
+         </nav>
+        </header>
+        <section id="menu">
+            <h2>Menu</h2>
+            <ul>
+                <li>Coffee - Rs40</li>
+                <li>Tea - Rs20</li>
+                <li>Sandwich - Rs120</li>
+                <li>Cake - Rs350</li>
+                <li>Pastry - Rs90</li>
+                <li>Pasta - Rs80</li>
+                <li>Pizza - Rs200</li>
+                <li>Ice Cream - Rs50</li>
+            </ul>
+        </section>
+        <section id="order">
+            <h2>Place Your Order</h2>
+            <form onsubmit="return placeOrder()">
+                <label>Coffee Qty:<input type="number" id="coffeeQty" value="0" min="0"></label><br>
+                <label>Tea Qty:<input type="number" id="teaQty" value="0" min="0"></label><br>
+                <label>Sandwich Qty:<input type="number" id="sandwichQty" value="0" min="0"></label><br>
+                <label>Cake Qty:<input type="number" id="cakeQty" value="0" min="0"></label><br>
+                <label>Pastry Qty:<input type="number" id="pastryQty" value="0" min="0"></label><br>
+                <label>Pasta Qty:<input type="number" id="pastaQty" value="0" min="0"></label><br>
+                <label>Pizza Qty:<input type="number" id="pizzaQty" value="0" min="0"></label><br>
+                <label>Ice Cream Qty:<input type="number" id="iceCreamQty" value="0" min="0"></label><br>
+                <button type="submit">Submit Order</button>
+            </form>
+            <p id="orderTotal"></p>
+            </section>
+
+            <script src="script.js"></script>
+    </body>
+</html>
+
+
+
+
+
+
+
+                
